@@ -1,20 +1,20 @@
 
 # 📁 ProMi - Projects Romi
 
-Manajemen proyek dan klien sederhana berbasis web. Cocok untuk freelancer atau pelaku usaha kecil yang ingin melacak pekerjaan, pembayaran, dan laporan secara efisien.
+A simple web-based project and client management tool. Ideal for freelancers or small businesses that want to efficiently track jobs, payments, and reports.
 
 ---
 
-## ✨ Fitur Utama
+## ✨ Main Features
 
-- 🔐 Login sederhana (tanpa database user)
-- 👥 Manajemen Client (tambah, lihat, hapus)
-- 📋 Tambah Proyek sekaligus Client
-- 💸 Pembayaran: tunai / transfer / QRIS
-- 📊 Statistik: status proyek, pendapatan
-- 🔍 Filter proyek berdasarkan status & pembayaran
-- 📖 History perubahan proyek
-- 📆 Laporan Mingguan & Bulanan (siap dikembangkan)
+- 🔐 Simple login (no user database)
+- 👥 Client management (add, view, delete)
+- 📋 Add a project together with a client
+- 💸 Payments: cash / transfer / QRIS
+- 📊 Statistics: project status, revenue
+- 🔍 Filter projects by status & payment
+- 📖 Project change history
+- 📆 Weekly & Monthly reports (ready to be extended)
 
 ---
 
@@ -26,62 +26,62 @@ Manajemen proyek dan klien sederhana berbasis web. Cocok untuk freelancer atau p
 - **Icon**: React Icons
 ---
 
-## 🚀 Cara Menjalankan
+## 🚀 How to Run
 
-### 1. Clone Repo
+### 1. Clone the Repo
 ```bash
 git clone https://github.com/romiwebdev/ProMi-project-manager.git
 cd ProMi-project-manager
 ````
 
-### 2. Install Dependency
+### 2. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Setup Environment
+### 3. Set Up Environment
 
-Buat file `.env.local`:
+Create a `.env.local` file:
 
 ```
 MONGODB_URI=your_mongodb_connection_string
 ```
 
-### 4. Jalankan App
+### 4. Run the App
 
 ```bash
 npm run dev
 ```
 
-Buka di: [http://localhost:3000](http://localhost:3000)
+Open at: [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 📝 Catatan Penggunaan
+## 📝 Usage Notes
 
-* Login cukup mengetik apa saja di field password (tidak ada autentikasi kompleks).
-* Semua data disimpan di MongoDB: `clients`, `projects`, dan `activityLogs`.
-* Fitur laporan mingguan/bulanan dan export PDF bisa dikembangkan lebih lanjut.
-
----
-
-## 🧑‍💻 Kontribusi
-
-Pull request sangat terbuka! Kamu bisa bantu di:
-
-* Export laporan ke PDF
-* Fitur reminder deadline
-* Pencarian client/proyek lebih detail
-* Auth login berbasis email/password
+* Login only requires typing anything in the password field (no complex authentication).
+* All data is stored in MongoDB: `clients`, `projects`, and `activityLogs`.
+* The weekly/monthly report and PDF export features can be further developed.
 
 ---
 
-## 📄 Lisensi
+## 🧑‍💻 Contributing
+
+Pull requests are very welcome! You can help with:
+
+* Report export to PDF
+* Deadline reminder feature
+* More detailed client/project search
+* Email/password-based login auth
+
+---
+
+## 📄 License
 
 MIT License.
 
 ---
 
-> Dibuat dengan semangat produktif oleh Romi.
-
+> Made with a productive spirit by Romi.
+ 
